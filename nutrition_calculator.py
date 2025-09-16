@@ -15,7 +15,7 @@ class NutritionCalculator:
         }
         
         self.goal_adjustments = {
-            'Weight Loss': -0.2,  # 20% deficit
+            'Weight Loss': -0.2,  # 20% deficits
             'Maintenance': 0.0,
             'Muscle Gain': 0.15   # 15% surplus
         }

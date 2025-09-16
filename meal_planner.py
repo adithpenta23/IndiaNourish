@@ -4,7 +4,7 @@ import random
 from typing import Dict, List, Tuple, Optional
 
 class MealPlanner:
-    """Generates personalized Indian meal plans based on user preferences."""
+    """Generates personalized Indian meal plans based on user preference."""
     
     def __init__(self, foods_csv_path: str = 'foods.csv'):
         self.foods_df = pd.read_csv(foods_csv_path)

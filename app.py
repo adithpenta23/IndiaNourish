@@ -25,7 +25,7 @@ def load_components():
 
 calculator, planner, pdf_gen = load_components()
 
-# App Header
+# App Header-1
 st.title("🍽️ Indian Nutrition Planner")
 st.markdown("---")
 st.markdown("**Generate personalized meal plans using traditional Indian foods**")

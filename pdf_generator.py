@@ -13,7 +13,7 @@ import tempfile
 import os
 
 class PDFGenerator:
-    """Generates PDF reports for meal plans."""
+    """Generates PDF reports for meal plan."""
     
     def __init__(self):
         self.styles = getSampleStyleSheet()
